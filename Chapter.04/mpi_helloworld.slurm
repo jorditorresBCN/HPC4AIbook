@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J mpi_helloworld
+#SBATCH -J mpirun_mpi_helloworld
 #SBATCH -t 00:15
 #SBATCH -o %x_%J.out
 #SBATCH -e %xo_%J.err
@@ -11,6 +11,10 @@
 #SBATCH --account bsc31
 #SBATCH --qos gp_debug
 
-# srun -np 4 ./mpi_helloworld
+module load oneapi/2023.2.0
 
+echo "mpirun ./mpi_helloworld:"
+mpirun ./mpi_helloworld
+
+echo "srun ./mpi_helloworld"
 srun ./mpi_helloworld
