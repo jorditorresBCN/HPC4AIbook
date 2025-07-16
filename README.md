@@ -23,28 +23,28 @@
 
 ### PART I — THE INFRASTRUCTURE LAYER  
 1. Supercomputing Basics  
-2. [Supercomputing Building Blocks](./Chapter2)  
-3. [Supercomputing Software Environment and Tools](./Chapter3)
+2. [Supercomputing Building Blocks](./Chapter.02)  
+3. [Supercomputing Software Environment and Tools](./Chapter.03)
 
 ### PART II — THE PARALLEL EXECUTION LAYER  
-4. [Launching and Structuring Parallel Programs with MPI](./Chapter4)  
-5. [GPU Programming and CUDA](./Chapter5)  
-6. [Distributed GPU Programming](./Chapter6)
+4. [Launching and Structuring Parallel Programs with MPI](./Chapter.04)  
+5. [GPU Programming and CUDA](./Chapter.05)  
+6. [Distributed GPU Programming](./Chapter.06)
 
 ### PART III — THE INTELLIGENCE ABSTRACTION LAYER  
-7. [Neural Networks: Concepts and First Steps](./Chapter7)  
-8. [Training Neural Networks: Basics, CNNs, and Deployment](./Chapter8)  
-9. [Getting Started with PyTorch](./Chapter9)
+7. [Neural Networks: Concepts and First Steps](./Chapter.07)  
+8. [Training Neural Networks: Basics, CNNs, and Deployment](./Chapter.08)  
+9. [Getting Started with PyTorch](./Chapter.09)
 
 ### PART IV — THE SCALABILITY LAYER  
 10. [Introduction to Parallel Training of Neural Networks](./Chapter10)  
-11. [Practical Guide to Efficient Training with PyTorch](./Chapter11)  
-12. [Parallelizing Model Training with Distributed Data Parallel](./Chapter12)
+11. [Practical Guide to Efficient Training with PyTorch](./Chapter.11.12)  
+12. [Parallelizing Model Training with Distributed Data Parallel](./Chapter.11.12)
 
 ### PART V — THE LANGUAGE ABSTRACTION LAYER  
-13. [Introduction to Large Language Models](./Chapter13)  
-14. [End-to-End Large Language Models Workflow](./Chapter14)  
-15. [Exploring Optimization and Scaling of LLMs](./Chapter15)
+13. [Introduction to Large Language Models](./Chapter.13)  
+14. [End-to-End Large Language Models Workflow](./Chapter.14)  
+15. [Exploring Optimization and Scaling of LLMs](./Chapter.15)
 
 > Additional materials will be made available as the book evolves.
 
