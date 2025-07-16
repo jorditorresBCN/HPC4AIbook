@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="220"/>
+      <img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="520"/>
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <strong>Supercomputing for Artificial Intelligence: Foundations, Architectures, and Scaling Deep Learning</strong><br>
@@ -65,7 +65,7 @@ This repository provides access to the companion materials referenced throughout
 
 ---
 
-## 📖 How to cite this book
+## How to cite this book
 
 Please use the following reference format when citing this book in academic or teaching materials:
 
