@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="520"/>
+      <img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="620"/>
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <strong>Supercomputing for Artificial Intelligence: Foundations, Architectures, and Scaling Deep Learning</strong><br>
@@ -10,31 +10,16 @@
       <strong>Series:</strong> WATCH THIS SPACE Book Series – Barcelona<br>
       <strong>Publisher:</strong> Amazon KDP, 2025<br><br>
       Welcome to the official GitHub repository for the book <strong>HPC4AIbook</strong>.<br><br>
-      This book is designed as a practical and accessible guide to <em>high-performance computing (HPC) for artificial intelligence (AI)</em>, covering the foundations of supercomputing, the tools and architectures required, and how to scale deep learning workloads efficiently.<br><br>
-      This repository provides access to the companion materials referenced throughout the book: source code, scripts, and datasets used in the hands-on exercises, as well as updates and resources for instructors and students.
+      This book is designed as a practical and accessible guide to <em>High Performance Computing for Artificial Intelligence </em>, covering the foundations of supercomputing, the tools and architectures required, and how to scale deep learning workloads efficiently.<br><br>
+      This repository provides access to the companion materials referenced throughout the book.
     </td>
   </tr>
 </table>
 
 
-# HPC4AIbook
-
-<img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="300"/>
-
-**Supercomputing for Artificial Intelligence: Foundations, Architectures, and Scaling Deep Learning**  
-Author: **Jordi Torres**  
-ISBN: 979-831932835-9  
-Series: *WATCH THIS SPACE Book Series – Barcelona*  
-Publisher: Amazon KDP, 2025
-
-Welcome to the official GitHub repository for the book **HPC4AIbook**.  
-This book is designed as a practical and accessible guide to **high-performance computing (HPC) for artificial intelligence (AI)**, covering the foundations of supercomputing, the tools and architectures required, and how to scale deep learning workloads efficiently.
-
-This repository provides access to the companion materials referenced throughout the book: source code, scripts, and datasets used in the hands-on exercises, as well as updates and resources for instructors and students.
-
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 ### PART I — THE INFRASTRUCTURE LAYER  
 1. Supercomputing Basics  
