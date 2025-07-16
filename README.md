@@ -16,9 +16,6 @@
   </tr>
 </table>
 
-
----
-
 ## Table of Contents
 
 ### PART I — THE INFRASTRUCTURE LAYER  
@@ -34,7 +31,7 @@
 ### PART III — THE INTELLIGENCE ABSTRACTION LAYER  
 7. [Neural Networks: Concepts and First Steps](./Chapter.07)  
 8. [Training Neural Networks: Basics, CNNs, and Deployment](./Chapter.08)  
-9. [Getting Started with PyTorch](./Chapter.09)
+9. Getting Started with PyTorch
 
 ### PART IV — THE SCALABILITY LAYER  
 10. [Introduction to Parallel Training of Neural Networks](./Chapter.10)  
