@@ -23,7 +23,7 @@
 
 ### PART I — THE INFRASTRUCTURE LAYER  
 1. Supercomputing Basics  
-2. [Supercomputing Building Blocks](./Chapter.02)  
+2. Supercomputing Building Blocks] 
 3. [Supercomputing Software Environment and Tools](./Chapter.03)
 
 ### PART II — THE PARALLEL EXECUTION LAYER  
@@ -37,7 +37,7 @@
 9. [Getting Started with PyTorch](./Chapter.09)
 
 ### PART IV — THE SCALABILITY LAYER  
-10. [Introduction to Parallel Training of Neural Networks](./Chapter10)  
+10. [Introduction to Parallel Training of Neural Networks](./Chapter.10)  
 11. [Practical Guide to Efficient Training with PyTorch](./Chapter.11.12)  
 12. [Parallelizing Model Training with Distributed Data Parallel](./Chapter.11.12)
 
