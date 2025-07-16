@@ -30,7 +30,7 @@
 
 ### PART III — THE INTELLIGENCE ABSTRACTION LAYER  
 7. [Neural Networks: Concepts and First Steps](./Chapter.07)  
-8. [Training Neural Networks: Basics, CNNs, and Deployment](./Chapter.08)  
+8. [Training Neural Networks: Basics, CNNs, and Deployment](./Chapter.07)  
 9. Getting Started with PyTorch
 
 ### PART IV — THE SCALABILITY LAYER  
@@ -39,7 +39,7 @@
 12. [Parallelizing Model Training with Distributed Data Parallel](./Chapter.11.12)
 
 ### PART V — THE LANGUAGE ABSTRACTION LAYER  
-13. [Introduction to Large Language Models](./Chapter.13)  
+13. Introduction to Large Language Models 
 14. [End-to-End Large Language Models Workflow](./Chapter.14)  
 15. [Exploring Optimization and Scaling of LLMs](./Chapter.15)
 
