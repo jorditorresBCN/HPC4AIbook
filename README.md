@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-## Table of Contents
+## AVAILABLE CODE: Table of Contents
 
 ### PART I — THE INFRASTRUCTURE LAYER  
 1. Supercomputing Basics  
