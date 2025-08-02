@@ -4,6 +4,9 @@
       <img src="https://github.com/jorditorresBCN/HPC4AIbook/blob/main/HPC4AIbook-cover.jpg" alt="Cover" width="620"/>
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
+      
+      [**See What's Inside**](https://torres.ai/wp-content/uploads/2025/08/Book-HPC4AI.content.pdf) – [**Order Now**](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+      
       <strong>Supercomputing for Artificial Intelligence: Foundations, Architectures, and Scaling Deep Learning</strong><br>
       <strong>Author:</strong> Jordi Torres<br>
       <strong>ISBN:</strong> 979-831932835-9<br>
