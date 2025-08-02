@@ -16,6 +16,10 @@
   </tr>
 </table>
 
+
+[**See What's Inside**](https://torres.ai/wp-content/uploads/2025/08/Book-HPC4AI.content.pdf) – [**Order Now**](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+
+
 ## AVAILABLE CODE: Table of Contents
 
 ### PART I — THE INFRASTRUCTURE LAYER  
