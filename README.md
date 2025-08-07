@@ -33,7 +33,7 @@
 
 ### PART I — THE INFRASTRUCTURE LAYER  
 1. Supercomputing Basics  
-2. Supercomputing Building Blocks] 
+2. Supercomputing Building Blocks 
 3. [Supercomputing Software Environment and Tools](./Chapter.03)
 
 ### PART II — THE PARALLEL EXECUTION LAYER  
@@ -55,6 +55,7 @@
 13. Introduction to Large Language Models 
 14. [End-to-End Large Language Models Workflow](./Chapter.14)  
 15. [Exploring Optimization and Scaling of LLMs](./Chapter.15)
+
 
 > Additional materials will be made available as the book evolves.
 
