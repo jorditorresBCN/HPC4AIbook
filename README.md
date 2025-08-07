@@ -17,7 +17,17 @@
 </table>
 
 
-[**See What's Inside**](https://torres.ai/wp-content/uploads/2025/08/Book-HPC4AI.content.pdf) – [**Order Now**](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+## 📖 FREE PREVIEW: Select the part that best fits your interests
+
+- **[Book Overview & Table of Contents](https://torres.ai/wp-content/uploads/2025/08/Book-HPC4AI.content.pdf)**
+- **[Chapter 1: Introduction & Motivation](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap1.pdf)**
+- **[Chapter 6: Distributed GPU Programming (CUDA & MPI)](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap6.pdf)**
+- **[Chapter 12: PyTorch DDP & Scaling](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap12.pdf)**
+
+👉 **Full Book**: [Order the full book for just 9.99 (digital)](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+
+
+[**Book Web Page **](https://torres.ai/HPC4AIbook) 
 
 
 ## AVAILABLE CODE: Table of Contents
