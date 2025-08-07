@@ -25,6 +25,7 @@
 - **[Chapter 12: PyTorch DDP & Scaling](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap12.pdf)**
 
 👉 **Full Book**: [Order the full book for just 9.99 (digital)](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+
 👉 **Book Web Page**: [https://torres.ai/HPC4AIbook](https://torres.ai/HPC4AIbook))
 
 
