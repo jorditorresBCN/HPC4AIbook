@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     // Ensuring that n is divisible by the number of MPI processes
-    n = 1000000
+    n = 1000000;
     n = (n / size) * size; 
 
 
