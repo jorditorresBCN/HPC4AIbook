@@ -24,7 +24,7 @@
 - **[Chapter 6: Distributed GPU Programming (CUDA & MPI)](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap6.pdf)**
 - **[Chapter 12: PyTorch DDP & Scaling](https://torres.ai/wp-content/uploads/2025/08/HPC4AIbook-Cap12.pdf)**
 
-👉 **Full Book**: [Order the full book for just 9.99 (digital)](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
+👉 **Full Book**: Order the full book for just [ 9.99$ @ AMAZON USA (digital)](https://www.amazon.com/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H) or [for 9.99€ @ AMAZON ES (digital)](https://www.amazon.es/Supercomputing-Artificial-Intelligence-Foundations-Architectures/dp/B0F4YMMS7H)
 
 👉 **Book Web Page**: [https://torres.ai/HPC4AIbook](https://torres.ai/HPC4AIbook))
 
