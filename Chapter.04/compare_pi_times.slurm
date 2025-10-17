@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
 #SBATCH --exclusive
-#SBATCH --account=bsc31
+#SBATCH --account=
 #SBATCH --qos=gp_debug
 
 module load oneapi/2023.2.0
