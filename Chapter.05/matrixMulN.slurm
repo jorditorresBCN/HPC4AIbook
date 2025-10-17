@@ -8,10 +8,9 @@
 #SBATCH --exclusive
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:05:00
-#SBATCH --account=bsc31
-#SBATCH --qos=acc_debug
+#SBATCH --account=
+#SBATCH --qos=
 
-# Load the CUDA module (adjust if needed)
 module load CUDA
 
 # Compile the program (not best practice in production, but fine for learning)
