@@ -8,7 +8,7 @@
 # #SBATCH --ntasks-per-node=4 
 #SBATCH --cpus-per-task=1
 #SBATCH --exclusive
-#SBATCH --account bsc31
+#SBATCH --account 
 #SBATCH --qos gp_debug
 
 module load oneapi/2023.2.0
