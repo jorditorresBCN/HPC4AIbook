@@ -7,10 +7,8 @@
 #SBATCH -t 00:35:00
 #SBATCH --exclusive
 #SBATCH --gres=gpu:1
-#SBATCH --account=bsc31
-#SBATCH --qos=acc_debug
-
-# Load the CUDA module (adjust if needed)
+#SBATCH --account=
+#SBATCH --qos=
 
 module purge
 module load cuda
