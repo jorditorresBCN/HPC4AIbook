@@ -10,8 +10,8 @@
 #SBATCH --gres=gpu:4
 #SBATCH --exclusive
 
-#SBATCH --account=bsc31
-#SBATCH --qos=acc_debug
+#SBATCH --account=
+#SBATCH --qos=
 
 #module load oneapi/2023.2.0
 module load nvidia-hpc-sdk/23.11-cuda11.8
