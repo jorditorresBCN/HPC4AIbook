@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name Ex02.MNumWorkers
+#SBATCH --job-name Ex02.CustomModel
 
 #SBATCH --chdir . 
 #SBATCH --output ./results/R-%x.%j.out
