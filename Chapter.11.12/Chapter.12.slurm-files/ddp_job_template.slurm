@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=ddp_tiny_8nodes_4gpus
+#SBATCH --job-name=<JOB_NAME>
 #SBATCH --chdir=.
 #SBATCH --output=./results/R-%x.%j.out
 #SBATCH --error=./results/R-%x.%j.err
-#SBATCH --nodes=8
+#SBATCH --nodes=<NODES>
 #SBATCH --ntasks-per-node=1
-#SBATCH --gres=gpu:4
-#SBATCH --cpus-per-task=80
-#SBATCH --time=01:30:00
-#SBATCH --account=bsc31
+#SBATCH --gres=gpu:<GPUs>
+#SBATCH --cpus-per-task=<CPU_PER_TASK: 20*<GPUs>>
+#SBATCH --time=<TIME: 00:00:00>
+#SBATCH --account=<ACCOUNT>
 #SBATCH --qos=acc_debug
 #SBATCH --exclusive
 
@@ -20,20 +20,20 @@ MASTER_ADDR=$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)
 MASTER_PORT=6000
 
 MODEL="vit"
-DATASET="./datasets/tiny-224"
+DATASET="<PATH>/datasets/tiny-224"
 EPOCHS=5
 BS=128
 NW=10
 OPTIM="adamw"
 
 LAUNCHER="torchrun \
-    --nproc_per_node=4 \
-    --nnodes=8 \
+    --nproc_per_node=<GPUS> \
+    --nnodes=<NODES> \
     --node_rank=$SLURM_PROCID \
     --rdzv_endpoint=$MASTER_ADDR:$MASTER_PORT \
     --rdzv_backend=c10d"
 
-PYTHON_FILE="./train_ddp.py"
+PYTHON_FILE="<PATH>/train_ddp.py"
 PYTHON_ARGS="--model_name $MODEL \
              --dataset $DATASET \
              --num_epochs $EPOCHS \
