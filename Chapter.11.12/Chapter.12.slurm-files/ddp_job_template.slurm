@@ -20,7 +20,7 @@ MASTER_ADDR=$(scontrol show hostnames $SLURM_JOB_NODELIST | head -n 1)
 MASTER_PORT=6000
 
 MODEL="vit"
-DATASET="<PATH>/datasets/tiny-224"
+DATASET="<PATH>/datasets/<DATASET>"
 EPOCHS=5
 BS=128
 NW=10
