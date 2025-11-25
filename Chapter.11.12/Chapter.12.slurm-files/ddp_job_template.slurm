@@ -6,7 +6,7 @@
 #SBATCH --nodes=<NODES>
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:<GPUs>
-#SBATCH --cpus-per-task=<CPU_PER_TASK: 20*<GPUs>>
+#SBATCH --cpus-per-task=20
 #SBATCH --time=<TIME: 00:00:00>
 #SBATCH --account=<ACCOUNT>
 #SBATCH --qos=acc_debug
