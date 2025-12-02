@@ -7,7 +7,7 @@
 
 #SBATCH --nodes 1                   
 #SBATCH --ntasks-per-node 1         
-#SBATCH --gres gpu:2                
+#SBATCH --gres gpu:1                
 #SBATCH --cpus-per-task 80          
 #SBATCH --time 00:29:59            
 #SBATCH --account bsc31
