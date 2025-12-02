@@ -1,22 +1,26 @@
 #!/bin/bash
 
-#SBATCH --job-name LLM_task1 # Job name
-#SBATCH --chdir . # local directory
-#SBATCH --output ./results/R-%x.%j.out # local directory
-#SBATCH --error ./results/R-%x.%j.err # local directory
+###
+### Update the variables written between angle brackets
+###
 
-#SBATCH --nodes 1                   
+#SBATCH --job-name <your_job_name>
+#SBATCH --chdir . # local directory
+#SBATCH --output ./results/R-%x.%j.out  
+#SBATCH --error ./results/R-%x.%j.err  
+
+#SBATCH --nodes <nodes>        # 1, 2, 4, 8           
 #SBATCH --ntasks-per-node 1         
-#SBATCH --gres gpu:1                
+#SBATCH --gres gpu: <num_gpus> # 1, 2, 4              
 #SBATCH --cpus-per-task 20          
 #SBATCH --time 00:29:59             
-#SBATCH --account bsc31
+#SBATCH --account <account>
 #SBATCH --qos acc_debug
 #SBATCH --exclusive
 
-#### Variable to be modified by the student
-GPUS_PER_NODE=1  # between 1 and 4 GPUs
-MICRO_BATCH_SIZE=6 
+### Variable to be modified by the student
+GPUS_PER_NODE=1  # between 1 and 4 GPUs to inform torchrun
+MICRO_BATCH_SIZE= <batch_size>
 MODEL_PRECISION="fp32" # bf16 - fp32
 MIXED_PRECISION="no" # bf16 - fp8 - no
 ATTN=eager # eager - flash_attention_2 - sdpa
@@ -37,8 +41,8 @@ LAUNCHER="torchrun \
     --tee 3 \
     "
 
-PATH_TO_MODEL=./Llama-3.2-1B
-MODEL=LLAMA3.2-1B
+PATH_TO_MODEL= <path_to_model>
+MODEL= <name>  # LLAMA3.2-1B or facebook/opt-1.3b 
 
 MAX_STEPS=450
 SEQUENCE_LEN=1024
@@ -47,7 +51,7 @@ TORCH_COMPILE=false
 
 RUN_NAME="NODES-$SLURM_NNODES-GPUs-$GPUS_PER_NODE-$MODEL-MODEL-PRECISION-$MODEL_PRECISION-MIXED-PRECISION-$MIXED_PRECISION-ATTN-$ATTN-$OPTIMIZER-TC-$TORCH_COMPILE-LIGER-$LIGER_KERNEL-SEQLEN-$SEQUENCE_LEN-MBS-mak$MICRO_BATCH_SIZE-$(cat /proc/sys/kernel/random/uuid)"
 
-PYTHON_FILE=./benchmark.py
+PYTHON_FILE=<path>/benchmark.py
 PYTHON_ARGS="--path_to_model $PATH_TO_MODEL \
     --run_name $RUN_NAME \
     --max_steps $MAX_STEPS \
